@@ -7,10 +7,19 @@ const WHATSAPP_NUMBER = "8613800000000" // China WhatsApp contact
 const CONTACT_EMAIL = "Info@cwc-cn.com"
 const BUSINESS_ADDRESS = "ROOM B281, 2nd Floor, Hualiyuan NO.226, Hedong Road, Liwan District, Guangzhou, Guangdong, China (广州市荔湾区鹤洞路226号华丽苑2楼B281室)"
 const CONTACT_PHONE = "China HQ: +86 20 8888 8888"
-const BUSINESS_HOURS = "Mon - Fri: 08:30 - 17:30 (CST / UTC+8)"
-
 function App() {
   const [selectedMachineId, setSelectedMachineId] = useState(null)
+
+  // State for category filtering
+  const [selectedCategory, setSelectedCategory] = useState("All")
+
+  // Extract unique categories
+  const categories = ["All", ...new Set(machines.map(m => m.category).filter(Boolean))]
+
+  // Filter machines based on selected category
+  const filteredMachines = selectedCategory === "All" 
+    ? machines 
+    : machines.filter(m => m.category === selectedCategory)
   const [activeImageIndex, setActiveImageIndex] = useState(0)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
@@ -309,8 +318,21 @@ function App() {
                 </p>
               </div>
 
+              {/* Category Filter Tabs */}
+              <div className="category-filter-bar">
+                {categories.map((cat, idx) => (
+                  <button
+                    key={idx}
+                    className={`category-pill ${selectedCategory === cat ? 'active' : ''}`}
+                    onClick={() => setSelectedCategory(cat)}
+                  >
+                    {cat} {cat === 'All' ? `(${machines.length})` : ''}
+                  </button>
+                ))}
+              </div>
+
               <div className="products-grid">
-                {machines.map((machine) => (
+                {filteredMachines.map((machine) => (
                   <div key={machine.id} className="product-card" onClick={() => setSelectedMachineId(machine.id)}>
                     <div className="product-image-container">
                       <div className="brochure-badge">
@@ -321,8 +343,6 @@ function App() {
                     <div className="product-content">
                       <h3 className="product-card-title">{machine.name}</h3>
                       <p className="product-card-tagline">{machine.tagline}</p>
-                      
-                    
 
                       <div className="product-card-actions" onClick={(e) => e.stopPropagation()}>
                         <button className="btn btn-secondary btn-sm" style={{ flex: '1 1 40%' }} onClick={() => setSelectedMachineId(machine.id)}>

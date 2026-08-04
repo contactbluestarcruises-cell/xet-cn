@@ -1,0 +1,1241 @@
+PRODUCT CATALOG & SPECIFICATION MASTER
+Structured Developer Specification Document for E-Commerce Integration
+1. Sheet-Fed Auto-Feeding Cutter Series
+Model: ZKSVD370DS  |  High Speed Servo Motor
+Max Cutting Speed: 1600 mm/s (Maximum Double-Head Speed: 3200 mm/s)
+Key Features: Drawer-style Paper Tray • Supports Full Cut & Half Cut • Automatically Identifies Cutting Path via QR Code • WiFi Wireless Connection • Separate Double-Head Cutting Trolley • Dual Cutting Heads for Double Efficiency
+Applications: PET Self-Adhesive Stickers, Personalized Business Card Cutting, Self-Adhesive Half Cut & Full Cut, PET Car Instrument Panel Film, Special-Shaped Card Hang Tags, Paper Box Cutting
+Specification Field
+Value / Details
+Maximum Media Width
+370 mm
+Maximum Cutting Width
+350 mm
+Auto Contour Cutting
+Camera (Automatic Contour Cutting)
+Control Panel
+4.3-inch Touch Screen
+Motor
+High Speed Servo Motor
+Positioning Mode
+QR Code / Dot / Right Angle
+Number of Cutting Heads
+2
+Blade Type
+Rowland Blade
+Packing Dimensions
+L990 × W600 × H570 mm
+Machine Dimensions
+L845 × W475 × H370 mm
+Gross / Net Weight
+65 kg / 49 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Material Thickness
+450 gsm
+Maximum Cutting Force
+2000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Power Consumption
+< 150 W
+Power Supply
+100V–240V (Adaptive)
+Supported Materials
+Self-Adhesive Sticker, Coated Paper, PVC
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+1 GB
+Operating System
+All Versions of Windows
+
+
+Model: ZKSV370DW  |  High Speed Servo Motor
+Max Cutting Speed: 1600 mm/s
+Key Features: Drawer-style Paper Tray • Supports Full Cut & Half Cut • Automatically Identifies Cutting Path via QR Code • WiFi Wireless Connection
+Applications: PVC / PET Self-Adhesive Material, Matte Silver Adhesive Sticker, Personalized Business Card Cutting, Synthetic Paper Adhesive Sticker, Car Instrument Panel Film, Special-Shaped Card Hang Tag
+Specification Field
+Value / Details
+Maximum Media Width
+370 mm
+Maximum Cutting Width
+360 mm
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+Control Panel
+4.3-inch Touch Screen
+Motor
+High Speed Servo Motor
+Positioning Mode
+QR Code / Dot / Right Angle
+Number of Cutting Heads
+1
+Blade Type
+Rowland Blade
+Packing Dimensions
+L885 × W575 × H560 mm
+Machine Dimensions
+L770 × W475 × H370 mm
+Gross / Net Weight
+63 kg / 47 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Material Thickness
+450 gsm
+Maximum Cutting Force
+2000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Power Consumption
+< 150 W
+Power Supply
+100V–240V (Adaptive)
+Supported Materials
+Self-Adhesive Sticker, Coated Paper, PVC
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+1 GB
+Operating System
+All Versions of Windows
+
+
+Model: ZKSVD370DW  |  High Speed Servo Motor
+Max Cutting Speed: 1600 mm/s
+Key Features: Dual Knife Head Carriage • Drawer-style Paper Tray • Supports Full Cut & Half Cut • Automatically Identifies Cutting Path via QR Code • WiFi Wireless Connection • Double-Head Cutting Trolley
+Applications: Self-Adhesive Sticker, Personalized Business Card Cutting, Glossy Silver Self-Adhesive Stickers, Small-Batch Cardboard Creased Packaging Boxes
+Specification Field
+Value / Details
+Maximum Media Width
+370 mm
+Maximum Cutting Width
+340 mm
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+Control Panel
+4.3-inch Touch Screen
+Motor
+High Speed Servo Motor
+Positioning Mode
+QR Code / Dot / Right Angle
+Number of Cutting Heads
+2
+Blade Type
+Rowland Blade
+Packing Dimensions
+L890 × W580 × H570 mm
+Machine Dimensions
+L770 × W475 × H370 mm
+Gross / Net Weight
+63 kg / 47 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Material Thickness
+450 gsm
+Maximum Cutting Force
+2000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Power Consumption
+< 150 W
+Power Supply
+100V–240V (Adaptive)
+Supported Materials
+Self-Adhesive Sticker, Coated Paper, PVC
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+1 GB
+Operating System
+All Versions of Windows
+
+
+Model: ZKSV370  |  High Speed Servo Motor
+Max Cutting Speed: 1600 mm/s
+Key Features: Supports Full Cut & Half Cut • Automatically Identifies Cutting Path via QR Code • WiFi Wireless Connection
+Applications: Self-Adhesive Sticker, Personalized Business Card Cutting, Cardboard Hang Tag, Car Instrument Panel Film, Special-Shaped Card Hang Tag, Bright Silver Sticker
+Specification Field
+Value / Details
+Maximum Media Width
+370 mm
+Maximum Cutting Width
+360 mm
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+Control Panel
+4.3-inch Touch Screen
+Motor
+High Speed Servo Motor
+Positioning Mode
+QR Code / Dot / Right Angle
+Number of Cutting Heads
+1
+Blade Type
+Rowland Blade
+Packing Dimensions
+L890 × W580 × H570 mm
+Machine Dimensions
+L768 × W455 × H336 mm
+Gross / Net Weight
+47 kg / 42 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Material Thickness
+450 gsm
+Maximum Cutting Force
+2000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Power Consumption
+< 150 W
+Power Supply
+100V–240V (Adaptive)
+Supported Materials
+Self-Adhesive Sticker, Coated Paper, PVC
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+1 GB
+Operating System
+All Versions of Windows
+
+
+Model: ZKSVD370  |  High Speed Servo Motor
+Max Cutting Speed: 1600 mm/s
+Key Features: Dual Knife Head Carriage • Supports Full Cut & Half Cut • Automatically Identifies Cutting Path via QR Code • WiFi Wireless Connection • Double-Head Cutting Trolley
+Applications: PET Self-Adhesive Sticker, Personalized Business Card Cutting, Cardboard Hang Tag, Car Instrument Panel Film, Special-Shaped Card Hang Tag, Paper Box Cutting, Self-Adhesive Half-Cut & Full-Cut
+Specification Field
+Value / Details
+Maximum Media Width
+370 mm
+Maximum Cutting Width
+340 mm
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+Control Panel
+4.3-inch Touch Screen
+Motor
+High Speed Servo Motor
+Positioning Mode
+QR Code / Dot / Right Angle
+Number of Cutting Heads
+2
+Blade Type
+Rowland Blade
+Packing Dimensions
+L890 × W580 × H570 mm
+Machine Dimensions
+L768 × W455 × H336 mm
+Gross / Net Weight
+48 kg / 42 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Material Thickness
+450 gsm
+Maximum Cutting Force
+2000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Power Consumption
+< 150 W
+Power Supply
+100V–240V (Adaptive)
+Supported Materials
+Self-Adhesive Sticker, Coated Paper, PVC
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+1 GB
+Operating System
+All Versions of Windows
+
+
+Model: SVD370DW_RL  |  Wheel Indentation
+Max Cutting Speed: 1600 mm/s
+Key Features: High Pressure: 3000 g • Full Cut & Half Cut in One Pass • Automatically Identifies Cutting Path via QR Code • WiFi Wireless Connection
+Applications: Special-Shaped Self-Adhesive Sticker, Personalized Business Card Cutting, Cardboard Hang Tag, PVC / PET Self-Adhesive Sticker, Specialty Paper Self-Adhesive Sticker Cutting, Paper Box Cutting
+Specification Field
+Value / Details
+Maximum Media Width
+370 mm
+Maximum Cutting Width
+340 mm
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+Control Panel
+4.3-inch Touch Screen
+Motor
+High Speed Servo Motor
+Positioning Mode
+QR Code / Dot / Right Angle
+Number of Cutting Heads
+2
+Blade Type
+Rowland Blade
+Packing Dimensions
+L890 × W580 × H570 mm
+Machine Dimensions
+L768 × W455 × H336 mm
+Gross / Net Weight
+63 kg / 46 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Material Thickness
+600 gsm
+Maximum Cutting Force
+3000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Power Consumption
+< 150 W
+Power Supply
+100V–240V (Adaptive)
+Supported Materials
+Self-Adhesive Sticker, Coated Paper, PVC
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+1 GB
+Operating System
+All Versions of Windows
+
+
+2. Heavy-Duty Vacuum / Suction Feed Cutters
+Model: SVD370PRO_RL  |  Adsorption Wheel Indentation
+Max Cutting Speed: 1600 mm/s
+Key Features: WiFi Wireless Connection (One Machine Can Connect Multiple Computers) • USB Cable Networking / USB Flash Drive Offline Operation • Supports Up to 1,000 Sheets per Feeding • Full Cut, Half Cut, Crease & Cut in One Pass • Suction Feed System Prevents Static and Double Feeding
+Applications: Self-Adhesive Sticker, Specialty Paper Self-Adhesive Sticker, Personalized Business Card Cutting, Cardboard Hang Tag, Shopping Bag, Paper Box Cutting
+Specification Field
+Value / Details
+Maximum Media Width
+370 mm
+Maximum Cutting Width
+340 mm
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+Control Panel
+5.0-inch Touch Screen
+Motor
+High Speed Servo Motor
+Positioning Mode
+QR Code / Dot / Right Angle
+Number of Cutting Heads
+2
+Blade Type
+Rowland Blade
+Packing Dimensions
+Host: L950 × W720 × H780 mm | Cabinet: L910 × W580 × H860 mm
+Machine Dimensions
+L790 × W790 × H1200 mm
+Gross / Net Weight
+206 kg / 142 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Material Thickness
+600 gsm
+Maximum Cutting Force
+3000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Power Consumption
+< 150 W
+Power Supply
+100V–240V (Adaptive)
+Supported Materials
+Self-Adhesive Sticker, Coated Paper, PVC
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+1 GB
+Operating System
+All Versions of Windows
+
+
+Model: ZKSVD600PRO_RL  |  Adsorption Wheel Indentation
+Max Cutting Speed: 1600 mm/s
+Key Features: Automatic Suction Paper Feeding • Anti-Static Feeding System • WiFi Wireless Connection (One Machine Can Connect Multiple Computers) • USB Cable Networking / USB Flash Drive Offline Operation • Supports Up to 1,000 Sheets per Feeding • Full Cut, Half Cut, Crease & Cut in One Pass • Suction Feed System Prevents Static and Double Feeding • Double-Head Cutting Trolley
+Applications: Self-Adhesive Sticker, Personalized Business Card Cutting, Special-Shaped Card Hang Tag, Shopping Bag, Paper Box Cutting
+Specification Field
+Value / Details
+Maximum Media Width
+620 mm
+Maximum Cutting Width
+600 × 900 mm
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+Control Panel
+5.0-inch Touch Screen
+Motor
+High Speed Servo Motor
+Positioning Mode
+QR Code / Dot / Right Angle
+Number of Cutting Heads
+2
+Blade Type
+Rowland Blade
+Packing Dimensions
+L1140 × W930 × H1130 mm
+Machine Dimensions
+L1050 × W1050 × H1200 mm
+Gross / Net Weight
+222 kg / 176 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Material Thickness
+600 gsm
+Maximum Cutting Force
+3000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Power Consumption
+< 150 W
+Power Supply
+100V–240V (Adaptive)
+Supported Materials
+Self-Adhesive Sticker, Coated Paper, PVC
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+1 GB
+Operating System
+All Versions of Windows
+
+
+Model: ZKSVD370PRO  |  High Speed Servo Motor
+Max Cutting Speed: 1600 mm/s
+Key Features: Automatic Suction Paper Feeding • Effective Static Prevention • Dual Knife Head Carriage • Batch Cutting • Full Cut, Half Cut, Crease & Cut in One Pass • WiFi Wireless Connection • Double-Head Cutting Trolley
+Applications: Self-Adhesive Sticker, Personalized Business Card Cutting, Cardboard Hang Tag, Special-Shaped Card Hang Tag, Paper Box Cutting
+Specification Field
+Value / Details
+Maximum Media Width
+370 mm
+Maximum Cutting Width
+340 mm
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+Control Panel
+5.0-inch Touch Screen
+Motor
+High Speed Servo Motor
+Positioning Mode
+QR Code / Dot / Right Angle
+Number of Cutting Heads
+2
+Blade Type
+Rowland Blade
+Packing Dimensions
+Host: L950 × W720 × H780 mm | Cabinet: L910 × W580 × H860 mm
+Machine Dimensions
+L790 × W790 × H1200 mm
+Gross / Net Weight
+206 kg / 142 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Material Thickness
+450 gsm
+Maximum Cutting Force
+2000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Power Consumption
+< 150 W
+Power Supply
+100V–240V (Adaptive)
+Supported Materials
+Self-Adhesive Sticker, Coated Paper, PVC
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+1 GB
+Operating System
+All Versions of Windows
+
+
+3. Roll-to-Roll Continuous Cutting Machines
+Model: ZKJDJ330  |  Roll-to-Roll Continuous Cutting
+Max Cutting Speed: 1200 mm/s
+Key Features: Automatic Paper Feeding • Automatic Material Pickup • Automatic Waste Discharge • Adjustable Cutting Speed • WiFi Wireless Connection
+Applications: PET Transparent Self-Adhesive Sticker, Roll Self-Adhesive Stickers
+Specification Field
+Value / Details
+Media Feeding Method
+Automatic Paper Feeding
+Control Panel
+5.0-inch Touch Screen
+Maximum Material Width
+490 mm
+Maximum Cutting Area
+Unlimited Length × 330 mm Width
+Cutting Accuracy
+±0.01 mm
+Repeat Accuracy
+0.082 mm
+Maximum Cutting Pressure
+2000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Input Voltage
+110V–240V
+Machine Power
+< 100 W
+Working Temperature
++5°C to +35°C
+Packing Dimensions
+L1330 × W980 × H1270 mm
+Gross Weight
+133 kg
+Memory
+1 GB
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+
+
+Model: ZKJDJ370  |  Roll-to-Roll Continuous Cutting
+Max Cutting Speed: 1600 mm/s
+Key Features: Supports Roll or Sheet Materials • Automatic Paper Feeding • Automatic Material Pickup • Automatic Waste Discharge • Adjustable Cutting Speed • WiFi Wireless Connection
+Applications: Self-Adhesive Sticker, Roll-Fed Self-Adhesive Sticker, Various Types of Specialty Paper Self-Adhesive Stickers
+Specification Field
+Value / Details
+Media Feeding Method
+Automatic Paper Feeding
+Control Panel
+4.3-inch Touch Screen
+Maximum Material Width
+360 mm
+Maximum Cutting Area
+Unlimited Length × 340 mm Width
+Cutting Accuracy
+±0.01 mm
+Repeat Accuracy
+0.082 mm
+Maximum Cutting Pressure
+2000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Input Voltage
+110V–240V
+Machine Power
+< 100 W
+Working Temperature
++5°C to +35°C
+Bracket Dimensions
+L800 × W400 × H570 mm
+Bracket Weight (G/N)
+44 kg / 43 kg
+Machine Dimensions
+L890 × W580 × H570 mm
+Machine Weight (G/N)
+63 kg / 47 kg
+Memory
+1 GB
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+
+
+Model: ZKJDJ370DS  |  Roll-to-Roll Continuous Cutting
+Max Cutting Speed: 1600 mm/s (3200 mm/s Dual Head)
+Key Features: Supports Roll or Sheet Materials • Automatic Paper Feeding • Automatic Material Pickup • Automatic Waste Discharge • Adjustable Cutting Speed • WiFi Wireless Connection • Dual-Head Cutting for Double Efficiency
+Applications: Self-Adhesive Sticker, Roll-Fed Self-Adhesive Sticker, Various Types of Specialty Paper Self-Adhesive Stickers
+Specification Field
+Value / Details
+Media Feeding Method
+Automatic Paper Feeding
+Control Panel
+4.3-inch Touch Screen
+Maximum Material Width
+360 mm
+Maximum Cutting Area
+Unlimited Length × 340 mm Width
+Cutting Accuracy
+±0.01 mm
+Repeat Accuracy
+0.082 mm
+Maximum Cutting Pressure
+2000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Input Voltage
+110V–240V
+Machine Power
+< 100 W
+Working Temperature
++5°C to +35°C
+Bracket Dimensions
+L800 × W400 × H570 mm
+Bracket Weight (G/N)
+44 kg / 43 kg
+Machine Dimensions
+L990 × W600 × H570 mm
+Machine Weight (G/N)
+65 kg / 49 kg
+Memory
+1 GB
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+
+
+4. Desktop & Compact Entry Cutters
+Model: ZKST350  |  Double Row Pressure Wheel
+Max Cutting Speed: 1000 mm/s
+Key Features: Camera Automatic Positioning • WiFi Wireless Connection • 2000 g Super Cutting Force • Identify Files by Scanning QR Code
+Applications: PVC Self-Adhesive Stickers, Self-Adhesive Labels, Specialty Paper Self-Adhesive Stickers
+Specification Field
+Value / Details
+Maximum Media Width
+335 mm
+Maximum Cutting Width
+330 mm
+Maximum Cutting Length
+Unlimited
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+Control Panel
+4.3-inch Touch Screen
+Motor
+Stepper Motor
+Positioning Mode
+QR Code / Dot / Right Angle
+Number of Cutting Heads
+1
+Blade Type
+Rowland Blade
+Packing Dimensions
+L810 × W510 × H540 mm
+Machine Dimensions
+L700 × W425 × H310 mm
+Gross / Net Weight
+38 kg / 30 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Material Thickness
+450 gsm
+Maximum Cutting Force
+2000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Power Consumption
+< 150 W
+Power Supply
+100V–240V (Adaptive)
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+1 GB
+Operating System
+All Versions of Windows
+
+
+Model: STD350  |  Double Cutter Head Indentation Die Cutting Machine
+Max Cutting Speed: 1000 mm/s
+Key Features: Double Knife Head Carriage • Camera Automatic Positioning • WiFi Wireless Connection • 2000 g Super Cutting Force • Identify Files by Scanning QR Code
+Applications: Irregular Shape Engraving, Knife Board Engraving, Hang Tag Engraving
+Specification Field
+Value / Details
+Maximum Media Width
+335 mm
+Maximum Cutting Width
+330 mm
+Maximum Cutting Length
+Unlimited
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+Control Panel
+4.3-inch Touch Screen
+Motor
+Stepper Motor
+Positioning Mode
+QR Code / Dot / Right Angle
+Number of Cutting Heads
+2
+Blade Type
+Rowland Blade
+Packing Dimensions
+L870 × W550 × H550 mm
+Machine Dimensions
+L700 × W425 × H310 mm
+Gross / Net Weight
+40 kg / 32 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Material Thickness
+450 gsm
+Maximum Cutting Force
+2000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Power Consumption
+< 150 W
+Power Supply
+100V–240V (Adaptive)
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+128 MB
+Operating System
+All Versions of Windows
+
+
+Model: ZKSV350  |  Servo Motor
+Max Cutting Speed: 1500 mm/s
+Key Features: Camera Automatic Positioning • WiFi Wireless Connection • 2000 g Super Cutting Force • Identify Files by Scanning QR Code
+Applications: Self-Adhesive Sticker, Special-Shaped Card Hang Tag
+Specification Field
+Value / Details
+Maximum Media Width
+345 mm (A4 / A3 / A3+)
+Maximum Cutting Width
+330 mm
+Maximum Cutting Length
+Unlimited
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+Control Panel
+4.3-inch Touch Screen
+Motor
+Servo Motor
+Positioning Mode
+QR Code / Dot / Right Angle
+Number of Cutting Heads
+1
+Blade Type
+Rowland Blade
+Packing Dimensions
+L780 × W580 × H520 mm
+Machine Dimensions
+L693 × W480 × H295 mm
+Gross / Net Weight
+52 kg / 37 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Material Thickness
+450 gsm
+Maximum Cutting Force
+2000 g
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi
+Power Consumption
+< 150 W
+Power Supply
+100V–240V (Adaptive)
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+1 GB
+Operating System
+All Versions of Windows
+
+
+Model: ZK500mini  |  Dual Axis Automatic Induction Paper Feeding
+Max Cutting Speed: 800 mm/s (Cutting Speed: 700 mm/s)
+Key Features: Full Page Cutting Without Margins • Camera Automatic Positioning • WiFi Wireless Connection • Plug-and-Play (Driver-Free)
+Applications: Self-Adhesive Sticker, ID Photo Cropping, Cardboard Hang Tag, Heat Transfer Film Cutting, Journaling Tape
+Specification Field
+Value / Details
+Maximum Media Width
+240 mm
+Maximum Cutting Width
+220 mm
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+Control Panel
+Pure Capacitive LCD Touch Screen
+Packing Dimensions
+L710 × W330 × H280 mm
+Machine Dimensions
+L600 × W200 × H190 mm
+Gross / Net Weight
+10 kg / 7 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Blade Type
+Rowland Blade
+Maximum Cutting Force
+1000 g
+Connectivity
+USB Cable / U-Disk / WiFi (Optional)
+Power Consumption
+< 100 W
+Power Supply
+100V–240V (Adaptive)
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+1 GB
+Operating System
+All Versions of Windows
+
+
+Model: ZK500  |  Dual Axis Automatic Induction Paper Feeding
+Max Cutting Speed: 800 mm/s (Cutting Speed: 700 mm/s)
+Key Features: Full Page Cutting Without Margins • Camera Automatic Positioning • WiFi Wireless Connection • Plug-and-Play (Driver-Free)
+Applications: Accessory Storage Box, WiFi Wireless Connection, Dual-Roller Press System, Sensor Paper Feeding, Self-Adhesive Sticker, Cardboard Hang Tag, Shrink Film Cutting, Journaling Tape
+Specification Field
+Value / Details
+Maximum Media Width
+370 mm
+Maximum Cutting Width
+360 mm
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+Control Panel
+Pure Capacitive LCD Touch Screen
+Packing Dimensions
+L840 × W330 × H280 mm
+Machine Dimensions
+L730 × W200 × H190 mm
+Gross / Net Weight
+14 kg / 11 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Blade Type
+Rowland Blade
+Maximum Cutting Force
+1000 g
+Connectivity
+USB Cable / U-Disk / WiFi (Optional)
+Power Consumption
+< 100 W
+Power Supply
+100V–240V (Adaptive)
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+1 GB
+Operating System
+All Versions of Windows
+
+
+5. Wide Format Vinyl Cutters & Plotters
+Model: ZKSS600  |  CCD Camera Automatic Edge Patrol Plotter
+Max Cutting Speed: 700 mm/s
+Key Features: Large Screen Center Console • Easy & Convenient Operation • 5-inch LCD Display • WiFi Wireless Connection • Supports Multiple Languages • Concealed High-Precision Trolley Head • Multiple Connectivity Options • Integrated Wheel Pressure System • Supports Various Specialty Materials
+Applications: Specialty Vinyl Materials, Precision Contour Cutting, Sticker Cutting, Label Production
+Specification Field
+Value / Details
+Maximum Media Width
+669 mm
+Maximum Cutting Width
+632 mm
+Maximum Contour Cutting Width
+590 mm
+Packing Dimensions
+L1000 × W285 × H310 mm
+Gross Weight
+15.3 kg
+Maximum Cutting Force
+1000 g
+Auto Contour Cutting
+CCD Camera
+Motor
+Stepper Motor
+Processor Memory
+1 GB
+Cutting Accuracy
+±0.01 mm
+Connectivity
+USB Flash Drive / WiFi / USB Cable
+Power Consumption
+< 48 W
+Control Panel
+Pure Capacitive LCD Touch Screen
+Power Supply
+100–240V AC, 50/60Hz, 24V / 2.75A
+
+
+Model: ZK760  |  Automatic Induction Paper Feeding
+Max Cutting Speed: 800 mm/s (Cutting Speed: 700 mm/s)
+Key Features: Vacuum Adsorption for Smooth Cutting • WiFi Wireless Connection • Camera Automatic Positioning • Plug-and-Play (Driver-Free) • Automatic Paper Feeding
+Applications: Cardboard Hang Tag, Self-Adhesive Vinyl Cutter, Self-Adhesive Sticker
+Specification Field
+Value / Details
+Maximum Media Width
+760 mm
+Maximum Cutting Width
+640 mm
+Maximum Cutting Length
+Unlimited
+Auto Contour Cutting
+Camera (Automatically Contour Cutting)
+Control Panel
+Pure Capacitive LCD Touch Screen
+Packing (Main Unit)
+L1100 × W330 × H280 mm
+Packing (Leg Frame)
+L1000 × W170 × H550 mm
+Gross / Net Weight
+29 kg / 25 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Blade Type
+Rowland Blade
+Maximum Cutting Force
+1000 g
+Connectivity
+USB Cable / U-Disk / WiFi (Optional)
+Power Consumption
+< 100 W
+Power Supply
+100V–240V (Adaptive)
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory
+1 GB
+Operating System
+All Versions of Windows
+
+
+Model: ZK1000 / ZK1400 / ZK1750  |  Camera Automatic Positioning (Standard Series)
+Max Cutting Speed: 800 mm/s (Cutting Speed: 700 mm/s)
+Key Features: 2000 g Super Cutting Force • WiFi Wireless Connection • Supports Extra-Wide Roll Materials • Automatically Corrects Large Graphics up to 10 Meters Without Deviation
+Applications: PVC Adhesive Backing Roll, Hollow Board Cutting, Precision Photo Paper Cutting, White Ink Heat Transfer, Reflective Film Cutting, Vehicle Sticker Cutting, Light Box Film Cutting
+Specification Field
+Value / Details
+Available Models & Media Width
+ZK1000: 1000 mm  |  ZK1400: 1400 mm  |  ZK1750: 1750 mm
+Maximum Cutting Width
+ZK1000: 850 mm  |  ZK1400: 1250 mm  |  ZK1750: 1600 mm
+Machine Dimensions
+ZK1000: L1250×W600×H1100 mm  |  ZK1400: L1650×W600×H1100 mm  |  ZK1750: L2000×W600×H1100 mm
+Gross / Net Weight
+ZK1000: 36/30 kg  |  ZK1400: 42/36 kg  |  ZK1750: 55/49 kg
+Control Panel
+5.0-inch LCD Touch Screen
+Motor
+Micro-Step Subdivision Motor
+Maximum Cutting Length
+Unlimited
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Cutting Force
+2000 g
+Main Board
+ARM Smart Dual-Core Chip
+Floor Stand
+Yes (Included)
+Drawing Language
+Automatic Recognition of DMPL & HPGL
+Connectivity
+USB Cable / U-Disk / WiFi (Optional)
+Power Consumption
+< 100 W
+Power Supply
+100V–240V (Adaptive), 50Hz / 60Hz
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory / OS
+1 GB / All Versions of Windows
+
+
+Model: ZK1000-SF / ZK1400-SF / ZK1750-SF  |  High-Speed Servo Motor Series
+Max Cutting Speed: 1200 mm/s
+Key Features: 2000 g Super Cutting Force • Quiet High-Speed Servo Motor • WiFi Wireless Connection • Web Cable Connection
+Applications: PVC Adhesive Backing, White Ink Heat Transfer, Vehicle Sticker Cutting, Magnetic Sheet Cutting, Light Box Film Cutting, Reflective Film Cutting
+Specification Field
+Value / Details
+Available Models & Media Width
+ZK1000-SF: 1000 mm  |  ZK1400-SF: 1400 mm  |  ZK1750-SF: 1750 mm
+Maximum Cutting Width
+ZK1000-SF: 850 mm  |  ZK1400-SF: 1250 mm  |  ZK1750-SF: 1600 mm
+Machine Dimensions
+ZK1000-SF: L1250×W600×H1100 mm  |  ZK1400-SF: L1650×W600×H1100 mm  |  ZK1750-SF: L2000×W600×H1100 mm
+Gross / Net Weight
+ZK1000-SF: 36/30 kg  |  ZK1400-SF: 42/36 kg  |  ZK1750-SF: 55/49 kg
+Control Panel
+5.0-inch LCD Touch Screen
+Motor
+Servo Drive + Servo Motor
+Maximum Cutting Length
+Unlimited
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Cutting Force
+2000 g
+Main Board
+ARM Smart Dual-Core Chip
+Floor Stand
+Yes (Included)
+Drawing Language
+Automatic Recognition of DMPL & HPGL
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi (Optional)
+Power Consumption
+< 100 W
+Power Supply
+100V–240V (Adaptive), 50Hz / 60Hz
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory / OS
+1 GB / All Versions of Windows
+
+
+6. Dual-Head Wide Format Plotters
+Model: ZKD1000 / ZKD1000-SF / ZKD1500-SF / ZKD1800-SF  |  Dual Knife Head Carriage Plotters
+Max Cutting Speed: 700 mm/s (Stepper) / 1200 mm/s (Servo)
+Key Features: Dual Knife Head Carriage • Camera Automatic Positioning • 2000 g Super Cutting Force • Double-Head Cutting Trolley • WiFi Wireless Connection • Full Cut, Half Cut, Crease & Cut in One Pass
+Applications: Crystal Label Dedicated Cutting, PVC Adhesive Backing, White Ink Heat Transfer, Vehicle Sticker Cutting, Magnetic Sheet, Reflective Film Cutting
+Specification Field
+Value / Details
+Models & Cutting Widths
+ZKD1000: 700mm | ZKD1000-SF: 700mm | ZKD1500-SF: 1250mm | ZKD1800-SF: 1500mm
+Media Widths
+ZKD1000/SF: 1000mm | ZKD1500-SF: 1550mm | ZKD1800-SF: 1800mm
+Motor Type
+ZKD1000: Stepper | ZKD1000-SF/1500-SF/1800-SF: High Speed Servo Motor
+Cutting Heads
+2 Heads (Double-Head Trolley)
+Control Panel
+5.0-inch LCD Touch Screen
+Cutting Accuracy
+±0.01 mm
+Repeatability
+0.082 mm
+Maximum Cutting Force
+2000 g
+Main Board
+ARM Smart Dual-Core Chip
+Floor Stand
+Yes (Included)
+Connectivity
+USB Cable / U-Disk / Web Cable / WiFi (Optional)
+Power Consumption
+< 100 W
+Power Supply
+100V–240V (Adaptive), 50Hz / 60Hz
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory / OS
+1 GB / All Versions of Windows
+
+
+7. ANYCUT Industrial Flatbed Cutters
+Model: ANYCUT-F3550  |  Tabletop Flatbed Cutter
+Max Cutting Speed: 1200 mm/s
+Key Features: 5.0-inch Intelligent Touch Screen • Stable Vacuum Adsorption Cutting • Accurate Camera Positioning with Automatic Correction • Supports Cutting Thick, Thin & Smooth Materials • Supports USB, U-Disk, Network Port & WiFi Connections • Dual-Head Cutting Trolley
+Applications: Self-Adhesive Sticker, Specialty Paper Self-Adhesive Sticker, Personalized Business Card Cutting, Cardboard Hang Tag, Dome Sticker, Paper Box Cutting
+Specification Field
+Value / Details
+Maximum Material Size
+480 × 675 mm
+Maximum Cutting Size
+350 × 500 mm
+Auto Contour Cutting
+Camera
+Control Panel
+5.0-inch Touch Screen
+Motor
+DC Servo Motor
+Positioning Mode
+L-Corner / Dot / QR Code Recognition / Multi-File Mixing
+Number of Cutting Heads
+2
+Blade Type
+Cutting Knife, Indentation Knife, Paint Brush
+Packing Dimensions
+L1430 × W755 × H480 mm
+Machine Dimensions
+L940 × W690 × H290 mm
+Gross / Net Weight
+81 kg / 61 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+±0.01 mm
+Maximum Material Thickness
+450 gsm
+Maximum Cutting Force
+2000 g
+Connectivity
+WiFi / USB / Network Port
+Power Consumption
+Host: 120 W, Fan: 1000 W
+Power Supply
+100V–240V (Adaptive)
+Supported Materials
+Cardboard, Hot Stamping Film, Self-Adhesive, Kraft Paper, PVC, PET
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory / OS
+1 GB / All Versions of Windows
+
+
+Model: ANYCUT-JF6090  |  Coil Flatbed Machine
+Max Cutting Speed: 1200 mm/s
+Key Features: Automatic Contour Cutting with High-Precision Vacuum Adsorption • Vacuum Adsorption Table (1500 W Vacuum Pump) • Supports a Wide Range of Materials • Dual Cutter Head Design (Cutting Knife + Indentation Knife) • 5.0-inch Touch Screen with Built-in Camera • 60 × 90 cm Working Area • Dual-Head Cutting Trolley
+Applications: Self-Adhesive Sticker, Specialty Paper Self-Adhesive Sticker, White Ink Heat Transfer, Cardboard Hang Tag, Dome Sticker, Paper Box Cutting
+Specification Field
+Value / Details
+Maximum Material Size
+630 × 1200 mm
+Maximum Cutting Size
+600 × 900 mm
+Auto Contour Cutting
+Camera
+Control Panel
+5.0-inch Touch Screen
+Motor
+High-Speed Servo Motor
+Positioning Mode
+L-Corner / Dot / QR Code Recognition
+Number of Cutting Heads
+2
+Blade Type
+Cutting Knife, Indentation Knife, Paint Brush
+Packing Dimensions
+L1620 × W1070 × H1150 mm
+Machine Dimensions
+L1770 × W1000 × H980 mm
+Gross Weight
+190 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+±0.01 mm
+Maximum Material Thickness
+450 gsm
+Maximum Cutting Force
+2000 g
+Connectivity
+WiFi / USB / Network Port / QR Code Recognition
+Power Consumption
+Host: 150 W, Fan: 1500 W
+Power Supply
+100V–240V (Adaptive)
+Supported Materials
+Cardboard, Hot Stamping Film, Self-Adhesive, Kraft Paper, PVC, PET
+Supported Software
+CDR, AI, PS, Contour Software, Signmaster (Optional)
+Memory / OS
+1 GB / All Versions of Windows
+
+
+Model: ANYCUT-KR1313  |  Flatbed Cutter
+Max Cutting Speed: 5–1000 mm/s
+Key Features: Dual Blade (Full Cut + Half Cut + Full Cut + Creasing) • Automatic Sheet Feeding via Roller Conveyor • Vacuum Working Table • High-Precision CCD Camera Positioning • High-Speed Servo Motor • Designed for PVC, Magnet, Vehicle Decals, Car PPF
+Applications: Vehicle Decals, 3M Reflective Sheeting, Vehicle Graphics, Diagonal-Patterned Floor Film, Domed Adhesive Stickers, Vehicle Color Change Wrap
+Specification Field
+Value / Details
+Maximum Cutting Size
+1300 × 1300 mm
+Auto Contour Cutting
+Camera
+Control Panel
+4.3-inch Touch Screen
+Motor
+Servo Motor
+Positioning Mode
+CCD
+Number of Cutting Heads
+2
+Blade Type
+Cutting Knife, Indentation Knife, Paint Brush
+Packing Dimensions
+L2200 × W1810 × H1280 mm
+Machine Dimensions
+L2080 × W1900 × H1120 mm
+Gross Weight
+485 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+±0.01 mm
+Maximum Material Thickness
+1.2 mm
+Maximum Cutting Force
+1000 g
+Connectivity
+USB / U-Disk / TCP
+Power Consumption
+Host: 120 W, Fan: 1000 W
+Power Supply
+AC100V–220V, 50/60Hz, 10A
+Supported Materials
+PVC, Magnet, Car Decal, Car PPF
+Supported Software
+AIDCUT (CDR, AI), Inkcut, Signmaster, Sign Cut
+Memory / OS
+1 GB / All Versions of Windows
+
+
+Model: ANYCUT-KF9015 / KF1215  |  Flatbed Cutter Series
+Max Cutting Speed: 5–1200 mm/s
+Key Features: Dual Blade (Full Cut + Half Cut + Full Cut + Creasing) • Vacuum Working Table • High-Precision CCD Camera Positioning • High-Speed Servo Motor • Designed for Magnet, PVC, Paper Gift Box Cutting • Supports Irregular Shape Cutting • CCD Double-Head Cutting Trolley
+Applications: Self-Adhesive Sticker, Specialty Paper Self-Adhesive Sticker, White Ink Heat Transfer, Cardboard Hang Tag, Dome Sticker, Paper Box Cutting
+Specification Field
+Value / Details
+Maximum Cutting Size
+KF9015: 900 × 1500 mm  |  KF1215: 1200 × 1500 mm
+Auto Contour Cutting
+Camera
+Control Panel
+5.0-inch Touch Screen
+Motor
+High-Speed Servo Motor
+Positioning Mode
+CCD
+Number of Cutting Heads
+2
+Blade Type
+Cutting Knife, Indentation Knife, Paint Brush
+Packing Dimensions
+KF9015: L2110×W1590×H550 mm | KF1215: L2110×W1820×H550 mm
+Machine Dimensions
+KF9015: L2000×W1480×H1020 mm | KF1215: L2000×W1710×H1020 mm
+Gross Weight
+190 kg
+Cutting Accuracy
+±0.01 mm
+Repeatability
+±0.01 mm
+Maximum Material Thickness
+450 gsm
+Maximum Cutting Force
+1000 g
+Connectivity
+WiFi / USB / Network Port / QR Code Recognition
+Power Consumption
+Host: 150 W, Fan: 1500 W
+Power Supply
+100V–240V (Adaptive)
+Supported Materials
+Magnet, PVC, Paper Gift Box
+Supported Software
+AIDCUT (CDR, AI), Inkcut, Signmaster, Sign Cut
+Memory / OS
+1 GB / All Versions of Windows
+
+

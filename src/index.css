@@ -405,6 +405,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Machine Grid & Cards */
+.category-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.category-pill {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.category-pill:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.category-pill.active {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border-color: var(--accent-color);
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.25);
+}
+
 .products-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -437,24 +469,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .product-image-container {
   position: relative;
-  padding-top: 66%;
-  background-color: var(--bg-secondary);
+  padding-top: 75%;
+  background-color: #ffffff;
   overflow: hidden;
   border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .product-image-container img {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  object-fit: contain;
   transition: var(--transition-slow);
 }
 
 .product-card:hover .product-image-container img {
-  transform: scale(1.04);
+  transform: scale(1.03);
 }
 
 .product-content {
