@@ -1,0 +1,239 @@
+[
+  {
+    "id": "ap-1060e",
+    "name": "AP-1060E Automatic Die Cutting Machine",
+    "tagline": "High-Speed Precision Die Cutting with Advanced Stripping System",
+    "description": "The AP-1060E is our flagship fully automatic die-cutting and creasing machine, engineered for heavy-duty industrial printing and packaging lines. Featuring a state-of-the-art stripping station, it delivers flawless high-speed throughput with minimal manual intervention, ideal for corrugated boxes, cosmetics packaging, and premium carton manufacturing.",
+    "image": "/images/testprod.png",
+    "brochureUrl": "/brochures/AP-1060E_Catalogue.pdf",
+    "specs": {
+      "paperSize": "1060 × 750 mm (Max) / 400 × 360 mm (Min)",
+      "cuttingPressure": "300 Tons",
+      "maxSpeed": "7,500 sheets/hour",
+      "motorPower": "15 kW",
+      "weight": "16.5 Tons",
+      "dimensions": "7,070 × 4,200 × 2,050 mm"
+    },
+    "technicalSpecs": {
+      "Maximum Sheet Size": "1060 × 750 mm",
+      "Minimum Sheet Size": "400 × 360 mm",
+      "Maximum Cutting Size": "1050 × 740 mm",
+      "Maximum Speed": "7,500 sheets/hour",
+      "Maximum Cutting Pressure": "300 Tons (3000 kN)",
+      "Stock Range": "Cardboard: 90-2000 gsm; Corrugated: ≤ 4mm (E, B Flute)",
+      "Inner Chase Size": "1080 × 758 mm",
+      "Minimum Gripper Margin": "9 - 17 mm",
+      "Main Motor Power": "15 kW",
+      "Total Power Consumption": "24 kW",
+      "Overall Dimensions": "7,070 × 4,200 × 2,050 mm",
+      "Total Net Weight": "16.5 Tons"
+    },
+    "features": [
+      "Non-stop feeder and delivery system to maximize productivity",
+      "Pneumatic lock chase system for rapid die setup changes",
+      "Highly accurate side lay with photo-electric sensors for register control",
+      "Dynamic high-speed triple-action stripping system",
+      "Imported premium indexing gearbox and drive mechanisms",
+      "Overload protection clutch system for safety and machine longevity"
+    ],
+    "applications": [
+      "Rigid Packaging Boxes",
+      "Cosmetic & Pharmaceutical Cartons",
+      "Corrugated Shipping Containers",
+      "Heavy Paper Bags",
+      "Die-Cut Pocket Folders"
+    ]
+  },
+  {
+    "id": "mh-1050",
+    "name": "MH-1050 Manual Platen Die Cutting Machine",
+    "tagline": "Industrial-Grade Platen Press for Solid Board and Heavy Corrugated Sheets",
+    "description": "Built for robust durability and ultimate flexibility, the MH-1050 is a heavy-duty hand-fed platen die cutter and creaser. With its solid cast-iron frames and high-torque electromagnetic clutch system, it handles thick materials, solid board, and heavy-gauge corrugated sheets with unmatched reliability and pressure distribution.",
+    "image": "/images/testprod.png",
+    "brochureUrl": "/brochures/MH-1050_Catalogue.pdf",
+    "specs": {
+      "paperSize": "1050 × 750 mm (Max) / Single sheet hand-fed",
+      "cuttingPressure": "150 Tons",
+      "maxSpeed": "25 ± 2 strokes/min",
+      "motorPower": "5.5 kW",
+      "weight": "4.5 Tons",
+      "dimensions": "1,950 × 1,720 × 1,850 mm"
+    },
+    "technicalSpecs": {
+      "Maximum Inner Chase Size": "1050 × 750 mm",
+      "Platen Working Area": "1070 × 770 mm",
+      "Cutting Speed": "25 ± 2 strokes/min",
+      "Maximum Cutting Pressure": "150 Tons",
+      "Max Rule Length": "< 30 meters",
+      "Main Motor Power": "5.5 kW",
+      "Electromagnetic Clutch Voltage": "DC 24V",
+      "Flywheel Running Speed": "280 rpm",
+      "Overall Dimensions": "1,950 × 1,720 × 1,850 mm",
+      "Total Net Weight": "4.5 Tons"
+    },
+    "features": [
+      "High-tensile frame structure made from superior quality alloy cast iron",
+      "Electromagnetic clutch and brake system for prompt and reliable response",
+      "Safety sensors and multi-stage emergency trip bars surrounding the platen",
+      "Centralized manual lubrication pump system for all moving joints",
+      "Adjustable dwell-timer for holding pressure on thick substrates",
+      "Stepless micro-adjustment dial for precise impression depth control"
+    ],
+    "applications": [
+      "Thick Corrugated Board Cutting",
+      "Greyboard & Puzzle Die Cutting",
+      "Heavy Industrial Gaskets & Plastics",
+      "Leather & Textile Die Creasing",
+      "Low-volume, High-thickness Package Runs"
+    ]
+  },
+  {
+    "id": "hsc-1300",
+    "name": "HSC-1300 High-Speed Web-Fed Roll Die Cutter",
+    "tagline": "Advanced Continuous Roll-Fed Die Cutting for Paper Cup & Label Production",
+    "description": "The HSC-1300 is an ultra-efficient roll-fed die cutting machine designed specifically for label production, paper cup blanks, and mass-market paper containers. Feeding from large web reels, it uses a servo-driven web tension control and photo-eye register to continuously die-cut and stack products at phenomenal speeds, drastically reducing waste material.",
+    "image": "/images/testprod.png",
+    "brochureUrl": "/brochures/HSC-1300_Catalogue.pdf",
+    "specs": {
+      "paperSize": "Web width: 600 - 1300 mm",
+      "cuttingPressure": "200 Tons",
+      "maxSpeed": "12,000 cuts/hour",
+      "motorPower": "18.5 kW",
+      "weight": "11.2 Tons",
+      "dimensions": "5,600 × 2,400 × 1,900 mm"
+    },
+    "technicalSpecs": {
+      "Maximum Web Width": "1300 mm",
+      "Minimum Web Width": "600 mm",
+      "Maximum Cutting Size": "1260 × 600 mm",
+      "Maximum Speed": "12,000 cuts/hour (200 strokes/min)",
+      "Maximum Cutting Pressure": "200 Tons",
+      "Unwind Roll Diameter": "Max 1500 mm",
+      "Paper Stock Thickness Range": "100 - 600 gsm",
+      "Register Accuracy": "± 0.15 mm",
+      "Main Servo Motor Power": "11 kW",
+      "Total Power Consumption": "22 kW",
+      "Overall Dimensions": "5,600 × 2,400 × 1,900 mm",
+      "Total Net Weight": "11.2 Tons"
+    },
+    "features": [
+      "Shaftless hydraulic unwind roll loader for easy reel changes",
+      "Double servo-motor drive system for unmatched web-register precision",
+      "Pneumatic lift-and-separate plate lock for roll tooling changeovers",
+      "Integrated web guiding system (EPC/LPC) for lateral drift control",
+      "Automatic count-and-stack delivery conveyor table",
+      "Pre-integrated tension sensing powder brake controllers"
+    ],
+    "applications": [
+      "Paper Cup Blanks",
+      "Ice Cream Tub Outers",
+      "Adhesive Label Die-Cutting",
+      "Flexible Packaging Sleeves",
+      "Liquid Carton Board Shaping"
+    ]
+  },
+  {
+    "id": "tm-1050fc",
+    "name": "TM-1050FC Foil Stamping & Die Cutting Machine",
+    "tagline": "Premium Foil Stamping, Embossing, and Die Cutting in a Single Pass",
+    "description": "Unify premium finishing with high precision. The TM-1050FC combines automatic hot foil stamping, deep multi-level embossing, and die cutting in a single operational flow. Powered by multi-zone intelligent heating platens and programmable servo foil feeders, this machine is the gold standard for high-end luxury cosmetics, wine cartons, and boutique gift wrap.",
+    "image": "/images/testprod.png",
+    "brochureUrl": "/brochures/TM-1050FC_Catalogue.pdf",
+    "specs": {
+      "paperSize": "1050 × 750 mm (Max) / 400 × 360 mm (Min)",
+      "cuttingPressure": "250 Tons",
+      "maxSpeed": "6,500 sheets/hour (stamping) / 7,500 (cutting)",
+      "motorPower": "18.5 kW + 24 kW Heating",
+      "weight": "17.8 Tons",
+      "dimensions": "7,350 × 4,600 × 2,150 mm"
+    },
+    "technicalSpecs": {
+      "Maximum Sheet Size": "1050 × 750 mm",
+      "Minimum Sheet Size": "400 × 360 mm",
+      "Maximum Stamping Size": "1020 × 720 mm",
+      "Maximum Speed": "6,500 strokes/hour (stamping)",
+      "Maximum Cutting Speed": "7,500 strokes/hour",
+      "Maximum Cutting Pressure": "250 Tons",
+      "Foil Shafts": "3 Longitudinal, 2 Transversal (Servo Driven)",
+      "Heating Zones": "12 independent micro-controlled zones",
+      "Temperature Range": "0 - 200 °C",
+      "Heating Total Load": "24 kW",
+      "Main Drive Motor": "18.5 kW",
+      "Overall Dimensions": "7,350 × 4,600 × 2,150 mm",
+      "Total Net Weight": "17.8 Tons"
+    },
+    "features": [
+      "12 independently controlled heating zones for absolute thermal uniformity",
+      "Dual transverse and triple longitudinal servo-driven foil feed shafts",
+      "Pneumatically sliding honeycomb plate for simple foil lockup setting",
+      "Advanced holographic foil registration tracking system (Optional)",
+      "High-precision dwell control for deep, dramatic embossing depth",
+      "Full safety interlocks and electronic double-sheet detection systems"
+    ],
+    "applications": [
+      "Luxury Cosmetic Packaging",
+      "Premium Spirit & Wine Cartons",
+      "Greeting Cards & Gift Wrap",
+      "Embossed Book Covers",
+      "Secure Holographic Labeling"
+    ]
+  },
+  {
+    "id": "anycut-f6090",
+    "name": "ANYCUT-F6090 Automatic Flatbed Cutter",
+    "tagline": "Dual-Head High-Speed Digital Flatbed Cutter & Creaser",
+    "description": "The ANYCUT-F6090 is an advanced digital flatbed cutting machine featuring dual tool heads, auto contour camera recognition, and high-speed servo motors. Engineered for precise cutting, creasing, and plotting across cardboard, kraft paper, PVC, and self-adhesive materials without needing traditional cutting dies.",
+    "image": "/images/testprod.png",
+    "brochureUrl": "/brochures/ANYCUT-F6090_Catalogue.pdf",
+    "specs": {
+      "paperSize": "630 × 1200 mm (Max Placement)",
+      "cuttingPressure": "2000 g Force",
+      "maxSpeed": "1200 mm/s",
+      "motorPower": "150W Host + 1500W Fan",
+      "weight": "190 kg",
+      "dimensions": "1770 × 1000 × 980 mm"
+    },
+    "technicalSpecs": {
+      "Model": "ANYCUT-F6090",
+      "Maximum Material Placement Size": "630mm × 1200mm",
+      "Maximum Cutting Size": "600mm × 900mm",
+      "Auto Contour Cut": "Camera",
+      "Control Panel": "5.0-inch Touch Screen",
+      "Motor": "High-speed Servo Motor",
+      "Positioning Mode": "L-corner / Dot / QR Code Recognition",
+      "Number of Heads": "2",
+      "Blade Type": "Cutting Knife, Indentation Knife, Paintbrush",
+      "Packing Size": "L1620mm × W1070mm × H1150mm",
+      "Machine Size": "L1770mm × W1000mm × H980mm",
+      "Gross / Net Weight": "190 kg",
+      "Cutting Accuracy": "±0.01 mm",
+      "Repeatability": "±0.01 mm",
+      "Maximum Material Thickness": "450 gsm",
+      "Maximum Cutting Speed": "1200 mm/s",
+      "Maximum Force": "2000 g",
+      "Connection Interface": "WiFi / USB / Network Port / QR Code Recognition",
+      "Power": "Host: 150 W, Fan: 1500 W",
+      "Working Environment": "5°C – 35°C",
+      "Power Supply": "100V – 240V (Adaptive)",
+      "Suitable Cutting Materials": "Cardboard, Coated Film, Self-Adhesive, Kraft Paper, PVC, PET",
+      "Supported Software": "CDR, AI, PS, Contour Software, SignMaster (Optional)",
+      "Memory": "1 GB",
+      "Supported Operating System": "All Versions of Windows"
+    },
+    "features": [
+      "Dual tool head system supporting cutting, creasing, and drawing in a single setup",
+      "CCD Camera auto contour positioning with L-corner, Dot, and QR code recognition",
+      "Ultra-precise ±0.01 mm cutting accuracy with high-speed servo motor drive",
+      "Supports diverse materials including cardboard up to 450 gsm, PVC, PET, and self-adhesive film",
+      "5.0-inch interactive touch screen control panel for intuitive operation",
+      "Flexible connectivity options via WiFi, USB, Network Port, and offline QR Code operation"
+    ],
+    "applications": [
+      "Digital Packaging Sample Making",
+      "Custom Die-Cut Stickers & Labels",
+      "Cardboard Box Prototyping",
+      "PVC & PET Film Gaskets",
+      "Short-Run Craft & Gift Box Packaging"
+    ]
+  }
+]
