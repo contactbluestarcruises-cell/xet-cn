@@ -3,7 +3,7 @@ import machines from './data/machines.json'
 import './App.css'
 
 // Business Configuration Constants
-const WHATSAPP_NUMBER = "8613800000000" // China WhatsApp contact
+const WHATSAPP_NUMBER = "8613710117282" // China WhatsApp contact
 const CONTACT_EMAIL = "Info@cwc-cn.com"
 const BUSINESS_ADDRESS = "ROOM B281, 2nd Floor, Hualiyuan NO.226, Hedong Road, Liwan District, Guangzhou, Guangdong, China"
 const CONTACT_PHONE = "China HQ: +86 20 8888 8888"
@@ -692,7 +692,7 @@ function App() {
                 <li>
                   <a href="#machines" onClick={(e) => {
                     e.preventDefault();
-                    setSelectedCategory("XCT Industrial Flatbed Cutters");
+                    setSelectedCategory("XCTCUT Industrial Flatbed Cutters");
                     setSelectedMachineId(null);
                     setTimeout(() => document.getElementById("machines")?.scrollIntoView({ behavior: 'smooth' }), 100);
                   }}>Industrial Flatbed Cutters</a>
