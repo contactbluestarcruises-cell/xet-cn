@@ -6,7 +6,7 @@ import './App.css'
 const WHATSAPP_NUMBER = "8613710117282" // China WhatsApp contact
 const CONTACT_EMAIL = "Info@cwc-cn.com"
 const BUSINESS_ADDRESS = "ROOM B281, 2nd Floor, Hualiyuan NO.226, Hedong Road, Liwan District, Guangzhou, Guangdong, China"
-const CONTACT_PHONE = "China HQ: +86 20 8888 8888"
+const CONTACT_PHONE = "China: +86 13710117282"
 const BUSINESS_HOURS = "Mon - Fri: 08:30 - 17:30 (CST / UTC+8)"
 
 function App() {
@@ -605,11 +605,11 @@ function App() {
 
                 <div className="map-container">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5404222415566!2d-0.12981568423023027!3d51.5032972796347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604c7ec5b4aab%3A0xe7f9a2e3ffc129e9!2sLondon%20Eye!5e0!3m2!1sen!2suk!4v1689234231920!5m2!1sen!2suk"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.784414458315!2d113.2384022!3d23.0867055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3402f0674cb3d527%3A0xbef6ebfbef24f331!2sHedong%20Rd%2C%20Liwan%20District%2C%20Guangzhou%2C%20Guangdong%20Province%2C%20China!5e0!3m2!1sen!2scn!4v1700000000000!5m2!1sen!2scn"
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="XCT China Showroom Location"
+                    title="XCT China Guangzhou Headquarters Location"
                   ></iframe>
                 </div>
               </div>
