@@ -5,8 +5,10 @@ import './App.css'
 // Business Configuration Constants
 const WHATSAPP_NUMBER = "8613800000000" // China WhatsApp contact
 const CONTACT_EMAIL = "Info@cwc-cn.com"
-const BUSINESS_ADDRESS = "ROOM B281, 2nd Floor, Hualiyuan NO.226, Hedong Road, Liwan District, Guangzhou, Guangdong, China (广州市荔湾区鹤洞路226号华丽苑2楼B281室)"
+const BUSINESS_ADDRESS = "ROOM B281, 2nd Floor, Hualiyuan NO.226, Hedong Road, Liwan District, Guangzhou, Guangdong, China"
 const CONTACT_PHONE = "China HQ: +86 20 8888 8888"
+const BUSINESS_HOURS = "Mon - Fri: 08:30 - 17:30 (CST / UTC+8)"
+
 function App() {
   const [selectedMachineId, setSelectedMachineId] = useState(null)
 
@@ -54,9 +56,25 @@ function App() {
   // Get current active machine
   const currentMachine = machines.find(m => m.id === selectedMachineId)
 
-  // Generate WhatsApp Message for specific machine
-  const getWhatsAppProductLink = (machineName) => {
-    const text = `Hello, I’m interested in the ${machineName}. Please share the quotation and more details.`;
+  // Generate detailed WhatsApp Message for a specific machine
+  const getWhatsAppProductLink = (machineOrName) => {
+    let machineObj = typeof machineOrName === 'object' ? machineOrName : machines.find(m => m.name === machineOrName || m.model === machineOrName);
+    
+    if (machineObj) {
+      const paperSize = machineObj.specs?.paperSize || 'Standard';
+      const maxSpeed = machineObj.specs?.maxSpeed || 'High Speed';
+      const category = machineObj.category || 'Cutter Series';
+      
+      const text = `*Machinery Quote Enquiry - XCT CHINA*\n\n` +
+                   `*Model:* ${machineObj.name}\n` +
+                   `*Category:* ${category}\n` +
+                   `*Max Speed:* ${maxSpeed}\n` +
+                   `*Media Size:* ${paperSize}\n\n` +
+                   `Hello XCT China team, I would like to receive an official price quotation, FOB shipping details, and catalogue for the ${machineObj.name}.`;
+      return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+    }
+
+    const text = `Hello XCT China team, I am interested in ${machineOrName}. Please send the official price quotation and brochure details.`;
     return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
   }
 
@@ -184,7 +202,7 @@ function App() {
           <div className="logo-container" onClick={() => setSelectedMachineId(null)}>
             <i className="fa-solid fa-compass-drafting logo-icon"></i>
             <div>
-              <span className="logo-text">XET CHINA</span>
+              <span className="logo-text">XCT CHINA</span>
               <span className="logo-subtext">Industrial Machinery Supply</span>
             </div>
           </div>
@@ -214,7 +232,15 @@ function App() {
               setMobileMenuOpen(false);
               setTimeout(() => document.getElementById("videos")?.scrollIntoView({ behavior: 'smooth' }), 100);
             }}>Demonstrations</a>
-            <a href="#enquiry" className="nav-link nav-cta" onClick={() => setMobileMenuOpen(false)}>Get a Quote</a>
+            <a 
+              href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hello XCT China team, I am interested in your industrial die cutting and plotting machinery. Please send an official product catalog and price list.")}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link nav-cta" 
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Get a Quote
+            </a>
           </nav>
 
           <button className="mobile-menu-btn" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
@@ -224,7 +250,112 @@ function App() {
       </header>
 
       {/* Main Content Area */}
-      {!selectedMachineId ? (
+      {selectedMachineId && currentMachine ? (
+        /* ==================== PRODUCT DETAILS VIEW ==================== */
+        <>
+          <section className="product-details-view">
+            <div className="container">
+              {/* Back Button */}
+              <div className="back-btn" onClick={() => setSelectedMachineId(null)}>
+                <i className="fa-solid fa-arrow-left"></i> Back to All Machines
+              </div>
+
+              <div className="details-layout">
+                {/* Single Page Specification Sheet Display */}
+                <div className="details-gallery">
+                  <div className="details-main-image spec-sheet-view">
+                    <div className="spec-header-tag">
+                      <i className="fa-solid fa-file-invoice"></i> Machine Specification Sheet
+                    </div>
+                    <img src={currentMachine.image} alt={`${currentMachine.name} Specification Sheet`} />
+                  </div>
+                  <div className="spec-sheet-note">
+                    <i className="fa-solid fa-circle-info"></i> Direct factory specification sheet for {currentMachine.name}
+                  </div>
+                </div>
+
+                {/* Technical Information Column */}
+                <div className="details-info">
+                  <span className="section-tag">Model Specifications</span>
+                  <h1 style={{ fontSize: '38px', margin: '8px 0 16px 0', letterSpacing: '-0.02em' }}>{currentMachine.name}</h1>
+                  <p className="details-tagline">{currentMachine.tagline}</p>
+                  <p className="details-desc">{currentMachine.description}</p>
+
+                  <div className="details-cta-block">
+                    <a href={getWhatsAppProductLink(currentMachine.name)} target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp btn-full">
+                      <i className="fa-brands fa-whatsapp"></i> Instant Quote on WhatsApp
+                    </a>
+                    <p>Immediate response during business hours</p>
+                  </div>
+
+                  <h3 className="details-section-title">Key Technical Specifications</h3>
+                  <table className="specs-table">
+                    <tbody>
+                      {Object.entries(currentMachine.technicalSpecs || {}).map(([label, value]) => (
+                        <tr key={label}>
+                          <td className="label-td">{label}</td>
+                          <td className="val-td">{value}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+
+                  <h3 className="details-section-title">Performance & Construction Features</h3>
+                  <ul className="features-list">
+                    {(currentMachine.features || []).map((feat, idx) => (
+                      <li key={idx}>{feat}</li>
+                    ))}
+                  </ul>
+
+                  <h3 className="details-section-title">Primary Applications</h3>
+                  <div className="apps-tags">
+                    {(currentMachine.applications || []).map((app, idx) => (
+                      <span key={idx} className="app-tag">{app}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {/* Related Machines Section */}
+              <div style={{ marginTop: '80px', borderTop: '1px solid var(--border-color)', paddingTop: '64px' }}>
+                <h3 className="section-title" style={{ fontSize: '28px', marginBottom: '32px' }}>Related Machines</h3>
+                <div className="products-grid" style={{ gridTemplateColumns: 'repeat(3, 1fr)' }}>
+                  {machines
+                    .filter(m => m.id !== selectedMachineId)
+                    .slice(0, 3)
+                    .map((machine) => (
+                      <div key={machine.id} className="product-card" onClick={() => setSelectedMachineId(machine.id)}>
+                        <div className="product-image-container" style={{ paddingTop: '60%' }}>
+                          <img src={machine.image} alt={machine.name} loading="lazy" />
+                        </div>
+                        <div className="product-content" style={{ padding: '20px' }}>
+                          <h4 style={{ fontSize: '16px', fontWeight: '700', marginBottom: '8px' }}>{machine.name}</h4>
+                          <p className="product-card-desc" style={{ fontSize: '13px', marginBottom: '16px', WebkitLineClamp: 2 }}>{machine.tagline}</p>
+                          <button className="btn btn-secondary btn-full btn-sm" style={{ padding: '8px 16px', fontSize: '13px' }} onClick={() => setSelectedMachineId(machine.id)}>
+                            View Product Specs
+                          </button>
+                        </div>
+                      </div>
+                    ))}
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Sticky Bottom WhatsApp / Enquiry Bar */}
+          <div className="sticky-cta-bar">
+            <div className="sticky-info">
+              <span className="sticky-name">{currentMachine.name}</span>
+              <span className="sticky-tagline">Request quote for immediate packaging production.</span>
+            </div>
+            <div className="sticky-actions">
+              <a href={getWhatsAppProductLink(currentMachine.name)} target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp">
+                <i className="fa-brands fa-whatsapp"></i> WhatsApp Enquiry
+              </a>
+            </div>
+          </div>
+        </>
+      ) : (
         /* ==================== LANDING PAGE VIEW ==================== */
         <>
           {/* Hero Section */}
@@ -277,7 +408,7 @@ function App() {
             </div>
           </section>
 
-            {/* Machine Demonstration Section (Direct HTML5 Autoplay Video Showcase) */}
+          {/* Machine Demonstration Section (Direct HTML5 Autoplay Video Showcase) */}
           <section id="videos">
             <div className="container">
               <div className="section-header">
@@ -359,8 +490,6 @@ function App() {
             </div>
           </section>
 
-        
-
           {/* Why Choose Us Section */}
           <section id="why-us" className="section-bg">
             <div className="container">
@@ -387,7 +516,7 @@ function App() {
           </section>
 
           {/* Industries We Serve Section */}
-          {/* <section id="industries">
+          <section id="industries">
             <div className="container">
               <div className="section-header">
                 <span className="section-tag">Applications</span>
@@ -408,110 +537,7 @@ function App() {
                 ))}
               </div>
             </div>
-          </section> */}
-
-          {/* Enquiry Form Section */}
-          {/* <section id="enquiry" className="section-bg">
-            <div className="container">
-              <div className="section-header">
-                <span className="section-tag">Instant Quote</span>
-                <h2 className="section-title">Request a Price Quote</h2>
-                <p className="section-desc">
-                  Submit your details below to receive factory pricing and full PDF brochures.
-                </p>
-              </div>
-
-              <div className="enquiry-card">
-                <form onSubmit={handleWhatsAppEnquiry} className="enquiry-form">
-                  <div className="form-group">
-                    <label htmlFor="name">Full Name *</label>
-                    <input
-                      type="text"
-                      id="name"
-                      className="form-control"
-                      value={formName}
-                      onChange={(e) => setFormName(e.target.value)}
-                      placeholder="e.g. John Doe"
-                      required
-                    />
-                  </div>
-
-                  <div className="form-group">
-                    <label htmlFor="company">Company Name</label>
-                    <input
-                      type="text"
-                      id="company"
-                      className="form-control"
-                      value={formCompany}
-                      onChange={(e) => setFormCompany(e.target.value)}
-                      placeholder="e.g. Packaging Solutions Ltd"
-                    />
-                  </div>
-
-                  <div className="form-group">
-                    <label htmlFor="phone">Phone Number *</label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      className="form-control"
-                      value={formPhone}
-                      onChange={(e) => setFormPhone(e.target.value)}
-                      placeholder="e.g. +44 7000 000 000"
-                      required
-                    />
-                  </div>
-
-                  <div className="form-group">
-                    <label htmlFor="email">Email Address</label>
-                    <input
-                      type="email"
-                      id="email"
-                      className="form-control"
-                      value={formEmail}
-                      onChange={(e) => setFormEmail(e.target.value)}
-                      placeholder="e.g. info@company.com"
-                    />
-                  </div>
-
-                  <div className="form-group form-full">
-                    <label htmlFor="machine">Machine Model of Interest *</label>
-                    <select
-                      id="machine"
-                      className="form-control"
-                      value={formMachine}
-                      onChange={(e) => setFormMachine(e.target.value)}
-                      required
-                    >
-                      <option value="">-- Select Machine Model --</option>
-                      {machines.map(m => (
-                        <option key={m.id} value={m.name}>{m.name}</option>
-                      ))}
-                    </select>
-                  </div>
-
-                  <div className="form-group form-full">
-                    <label htmlFor="message">Enquiry Message</label>
-                    <textarea
-                      id="message"
-                      className="form-control"
-                      value={formMessage}
-                      onChange={(e) => setFormMessage(e.target.value)}
-                      placeholder="Please add any specific requests (e.g., custom sizes, delivery timeline, installation assistance)."
-                    ></textarea>
-                  </div>
-
-                  <div className="form-actions form-full">
-                    <button type="submit" className="btn btn-whatsapp btn-full">
-                      <i className="fa-brands fa-whatsapp"></i> Send Enquiry via WhatsApp
-                    </button>
-                    <button type="button" onClick={handleEmailEnquiry} className="btn btn-secondary btn-full">
-                      <i className="fa-regular fa-envelope"></i> Send via Email
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </section> */}
+          </section>
 
           {/* Contact Details & Google Map Section */}
           <section id="contact">
@@ -583,119 +609,12 @@ function App() {
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="XET China / Qatar Showroom Location"
+                    title="XCT China Showroom Location"
                   ></iframe>
                 </div>
               </div>
             </div>
           </section>
-        </>
-      ) : (
-        /* ==================== PRODUCT DETAILS VIEW ==================== */
-        <>
-          <section className="product-details-view">
-            <div className="container">
-              {/* Back Button */}
-              <div className="back-btn" onClick={() => setSelectedMachineId(null)}>
-                <i className="fa-solid fa-arrow-left"></i> Back to All Machines
-              </div>
-
-              <div className="details-layout">
-                {/* Single Page Specification Sheet Display */}
-                <div className="details-gallery">
-                  <div className="details-main-image spec-sheet-view">
-                    <div className="spec-header-tag">
-                      <i className="fa-solid fa-file-invoice"></i> Machine Specification Sheet
-                    </div>
-                    <img src={currentMachine.image} alt={`${currentMachine.name} Specification Sheet`} />
-                  </div>
-                  <div className="spec-sheet-note">
-                    <i className="fa-solid fa-circle-info"></i> Direct factory specification sheet for {currentMachine.name}
-                  </div>
-                </div>
-
-                {/* Technical Information Column */}
-                <div className="details-info">
-                  <span className="section-tag">Model Specifications</span>
-                  <h1 style={{ fontSize: '38px', margin: '8px 0 16px 0', letterSpacing: '-0.02em' }}>{currentMachine.name}</h1>
-                  <p className="details-tagline">{currentMachine.tagline}</p>
-                  <p className="details-desc">{currentMachine.description}</p>
-
-                  <div className="details-cta-block">
-                    <a href={getWhatsAppProductLink(currentMachine.name)} target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp btn-full">
-                      <i className="fa-brands fa-whatsapp"></i> Instant Quote on WhatsApp
-                    </a>
-                    <p>Immediate response during business hours</p>
-                  </div>
-
-
-
-                  <h3 className="details-section-title">Key Technical Specifications</h3>
-                  <table className="specs-table">
-                    <tbody>
-                      {Object.entries(currentMachine.technicalSpecs).map(([label, value]) => (
-                        <tr key={label}>
-                          <td className="label-td">{label}</td>
-                          <td className="val-td">{value}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-
-                  <h3 className="details-section-title">Performance & Construction Features</h3>
-                  <ul className="features-list">
-                    {currentMachine.features.map((feat, idx) => (
-                      <li key={idx}>{feat}</li>
-                    ))}
-                  </ul>
-
-                  <h3 className="details-section-title">Primary Applications</h3>
-                  <div className="apps-tags">
-                    {currentMachine.applications.map((app, idx) => (
-                      <span key={idx} className="app-tag">{app}</span>
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-              {/* Related Machines Section */}
-              <div style={{ marginTop: '80px', borderTop: '1px solid var(--border-color)', paddingTop: '64px' }}>
-                <h3 className="section-title" style={{ fontSize: '28px', marginBottom: '32px' }}>Related Machines</h3>
-                <div className="products-grid" style={{ gridTemplateColumns: 'repeat(3, 1fr)' }}>
-                  {machines
-                    .filter(m => m.id !== selectedMachineId)
-                    .slice(0, 3)
-                    .map((machine) => (
-                      <div key={machine.id} className="product-card" onClick={() => setSelectedMachineId(machine.id)}>
-                        <div className="product-image-container" style={{ paddingTop: '60%' }}>
-                          <img src={machine.image} alt={machine.name} loading="lazy" />
-                        </div>
-                        <div className="product-content" style={{ padding: '20px' }}>
-                          <h4 style={{ fontSize: '16px', fontWeight: '700', marginBottom: '8px' }}>{machine.name}</h4>
-                          <p className="product-card-desc" style={{ fontSize: '13px', marginBottom: '16px', WebkitLineClamp: 2 }}>{machine.tagline}</p>
-                          <button className="btn btn-secondary btn-full btn-sm" style={{ padding: '8px 16px', fontSize: '13px' }} onClick={() => setSelectedMachineId(machine.id)}>
-                            View Product Specs
-                          </button>
-                        </div>
-                      </div>
-                    ))}
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Sticky Bottom WhatsApp / Enquiry Bar */}
-          <div className="sticky-cta-bar">
-            <div className="sticky-info">
-              <span className="sticky-name">{currentMachine.name}</span>
-              <span className="sticky-tagline">Request quote for immediate packaging production.</span>
-            </div>
-            <div className="sticky-actions">
-              <a href={getWhatsAppProductLink(currentMachine.name)} target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp">
-                <i className="fa-brands fa-whatsapp"></i> WhatsApp Enquiry
-              </a>
-            </div>
-          </div>
         </>
       )}
 
@@ -707,7 +626,7 @@ function App() {
               <div className="footer-logo">
                 <i className="fa-solid fa-compass-drafting footer-logo-icon"></i>
                 <div>
-                  <span className="footer-logo-text">XET CHINA</span>
+                  <span className="footer-logo-text">XCT CHINA</span>
                   <span className="footer-logo-subtext">Industrial Machinery Supply</span>
                 </div>
               </div>
@@ -728,16 +647,56 @@ function App() {
             </div>
 
             <div>
-              <h4 className="footer-title">Machine Categories</h4>
+              <h4 className="footer-title">Product Series</h4>
               <ul className="footer-links">
-                {machines.map(m => (
-                  <li key={m.id}>
-                    <a href="#machines" onClick={(e) => {
-                      e.preventDefault();
-                      setSelectedMachineId(m.id);
-                    }}>{m.name.split('Automatic')[0].split('Manual')[0]}</a>
-                  </li>
-                ))}
+                <li>
+                  <a href="#machines" onClick={(e) => {
+                    e.preventDefault();
+                    setSelectedCategory("Sheet-Fed Auto-Feeding Cutter Series");
+                    setSelectedMachineId(null);
+                    setTimeout(() => document.getElementById("machines")?.scrollIntoView({ behavior: 'smooth' }), 100);
+                  }}>Sheet-Fed Auto-Feeding Cutters</a>
+                </li>
+                <li>
+                  <a href="#machines" onClick={(e) => {
+                    e.preventDefault();
+                    setSelectedCategory("Heavy-Duty Vacuum / Suction Feed Cutters");
+                    setSelectedMachineId(null);
+                    setTimeout(() => document.getElementById("machines")?.scrollIntoView({ behavior: 'smooth' }), 100);
+                  }}>Heavy-Duty Suction Feed Cutters</a>
+                </li>
+                <li>
+                  <a href="#machines" onClick={(e) => {
+                    e.preventDefault();
+                    setSelectedCategory("Roll-to-Roll Continuous Cutting Machines");
+                    setSelectedMachineId(null);
+                    setTimeout(() => document.getElementById("machines")?.scrollIntoView({ behavior: 'smooth' }), 100);
+                  }}>Roll-to-Roll Continuous Cutters</a>
+                </li>
+                <li>
+                  <a href="#machines" onClick={(e) => {
+                    e.preventDefault();
+                    setSelectedCategory("Desktop & Compact Entry Cutters");
+                    setSelectedMachineId(null);
+                    setTimeout(() => document.getElementById("machines")?.scrollIntoView({ behavior: 'smooth' }), 100);
+                  }}>Desktop & Compact Cutters</a>
+                </li>
+                <li>
+                  <a href="#machines" onClick={(e) => {
+                    e.preventDefault();
+                    setSelectedCategory("Wide Format Vinyl Cutters & Plotters");
+                    setSelectedMachineId(null);
+                    setTimeout(() => document.getElementById("machines")?.scrollIntoView({ behavior: 'smooth' }), 100);
+                  }}>Wide Format Plotters</a>
+                </li>
+                <li>
+                  <a href="#machines" onClick={(e) => {
+                    e.preventDefault();
+                    setSelectedCategory("XCT Industrial Flatbed Cutters");
+                    setSelectedMachineId(null);
+                    setTimeout(() => document.getElementById("machines")?.scrollIntoView({ behavior: 'smooth' }), 100);
+                  }}>Industrial Flatbed Cutters</a>
+                </li>
               </ul>
             </div>
 
@@ -800,7 +759,7 @@ function App() {
           </div>
 
           <div className="footer-bottom">
-            <p>&copy; {new Date().getFullYear()} XET China. All Rights Reserved. Private B2B Manufacturing Supply.</p>
+            <p>&copy; {new Date().getFullYear()} XCT China. All Rights Reserved. Private B2B Manufacturing Supply.</p>
             <div className="footer-bottom-links">
               <a href="#" onClick={e => e.preventDefault()}>Terms of Service</a>
               <a href="#" onClick={e => e.preventDefault()}>Privacy Policy</a>

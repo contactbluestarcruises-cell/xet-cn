@@ -1250,7 +1250,7 @@
     "tagline": "Dual Knife Head Carriage Plotters",
     "description": "The ZKD1000 is a professional industrial cutter engineered for high-precision cutting, creasing, and plotting. Ideal for packaging, stickers, cardboard, and vinyl materials.",
     "image": "/products/ZKD1000.png",
-    "category": "ANYCUT Industrial Flatbed Cutters",
+    "category": "XCT Industrial Flatbed Cutters",
     "specs": {
       "paperSize": "Standard",
       "cuttingPressure": "2000 g",
@@ -1297,7 +1297,7 @@
     "tagline": "Dual Knife Head Carriage Plotters",
     "description": "The ZKD1000-SF is a professional industrial cutter engineered for high-precision cutting, creasing, and plotting. Ideal for packaging, stickers, cardboard, and vinyl materials.",
     "image": "/products/ZKD1000-SF.png",
-    "category": "ANYCUT Industrial Flatbed Cutters",
+    "category": "XCT Industrial Flatbed Cutters",
     "specs": {
       "paperSize": "Standard",
       "cuttingPressure": "2000 g",
@@ -1344,7 +1344,7 @@
     "tagline": "Dual Knife Head Carriage Plotters",
     "description": "The ZKD1500-SF is a professional industrial cutter engineered for high-precision cutting, creasing, and plotting. Ideal for packaging, stickers, cardboard, and vinyl materials.",
     "image": "/products/ZKD1500-SF.png",
-    "category": "ANYCUT Industrial Flatbed Cutters",
+    "category": "XCT Industrial Flatbed Cutters",
     "specs": {
       "paperSize": "Standard",
       "cuttingPressure": "2000 g",
@@ -1391,7 +1391,7 @@
     "tagline": "Dual Knife Head Carriage Plotters",
     "description": "The ZKD1800-SF is a professional industrial cutter engineered for high-precision cutting, creasing, and plotting. Ideal for packaging, stickers, cardboard, and vinyl materials.",
     "image": "/products/ZKD1800-SF.png",
-    "category": "ANYCUT Industrial Flatbed Cutters",
+    "category": "XCT Industrial Flatbed Cutters",
     "specs": {
       "paperSize": "Standard",
       "cuttingPressure": "2000 g",
@@ -1432,13 +1432,13 @@
     ]
   },
   {
-    "id": "anycut-f3550",
-    "model": "ANYCUT-F3550",
-    "name": "ANYCUT-F3550 Tabletop Flatbed Cutter",
+    "id": "xct-f3550",
+    "model": "XCT-F3550",
+    "name": "XCT-F3550 Tabletop Flatbed Cutter",
     "tagline": "Tabletop Flatbed Cutter",
-    "description": "The ANYCUT-F3550 is a professional industrial cutter engineered for high-precision cutting, creasing, and plotting. Ideal for packaging, stickers, cardboard, and vinyl materials.",
-    "image": "/products/ANYCUT-F3550.png",
-    "category": "ANYCUT Industrial Flatbed Cutters",
+    "description": "The XCT-F3550 is a professional industrial cutter engineered for high-precision cutting, creasing, and plotting. Ideal for packaging, stickers, cardboard, and vinyl materials.",
+    "image": "/products/XCT-F3550.png",
+    "category": "XCT Industrial Flatbed Cutters",
     "specs": {
       "paperSize": "480 × 675 mm",
       "cuttingPressure": "2000 g",
@@ -1485,13 +1485,13 @@
     ]
   },
   {
-    "id": "anycut-jf6090",
-    "model": "ANYCUT-JF6090",
-    "name": "ANYCUT-JF6090 Coil Flatbed Machine",
+    "id": "xct-jf6090",
+    "model": "XCT-JF6090",
+    "name": "XCT-JF6090 Coil Flatbed Machine",
     "tagline": "Coil Flatbed Machine",
-    "description": "The ANYCUT-JF6090 is a professional industrial cutter engineered for high-precision cutting, creasing, and plotting. Ideal for packaging, stickers, cardboard, and vinyl materials.",
-    "image": "/products/ANYCUT-JF6090.png",
-    "category": "ANYCUT Industrial Flatbed Cutters",
+    "description": "The XCT-JF6090 is a professional industrial cutter engineered for high-precision cutting, creasing, and plotting. Ideal for packaging, stickers, cardboard, and vinyl materials.",
+    "image": "/products/XCT-JF6090.png",
+    "category": "XCT Industrial Flatbed Cutters",
     "specs": {
       "paperSize": "630 × 1200 mm",
       "cuttingPressure": "2000 g",
@@ -1539,13 +1539,13 @@
     ]
   },
   {
-    "id": "anycut-kr1313",
-    "model": "ANYCUT-KR1313",
-    "name": "ANYCUT-KR1313 Flatbed Cutter",
+    "id": "xct-kr1313",
+    "model": "XCT-KR1313",
+    "name": "XCT-KR1313 Flatbed Cutter",
     "tagline": "Flatbed Cutter",
-    "description": "The ANYCUT-KR1313 is a professional industrial cutter engineered for high-precision cutting, creasing, and plotting. Ideal for packaging, stickers, cardboard, and vinyl materials.",
-    "image": "/products/ANYCUT-KR1313 .png",
-    "category": "ANYCUT Industrial Flatbed Cutters",
+    "description": "The XCT-KR1313 is a professional industrial cutter engineered for high-precision cutting, creasing, and plotting. Ideal for packaging, stickers, cardboard, and vinyl materials.",
+    "image": "/products/XCT-KR1313 .png",
+    "category": "XCT Industrial Flatbed Cutters",
     "specs": {
       "paperSize": "1300 × 1300 mm",
       "cuttingPressure": "1000 g",
@@ -1591,13 +1591,13 @@
     ]
   },
   {
-    "id": "anycut-kf9015",
-    "model": "ANYCUT-KF9015",
-    "name": "ANYCUT-KF9015 Flatbed Cutter Series",
+    "id": "xct-kf9015",
+    "model": "XCT-KF9015",
+    "name": "XCT-KF9015 Flatbed Cutter Series",
     "tagline": "Flatbed Cutter Series",
-    "description": "The ANYCUT-KF9015 is a professional industrial cutter engineered for high-precision cutting, creasing, and plotting. Ideal for packaging, stickers, cardboard, and vinyl materials.",
-    "image": "/products/ANYCUT-KF9015 : KF1215.png",
-    "category": "ANYCUT Industrial Flatbed Cutters",
+    "description": "The XCT-KF9015 is a professional industrial cutter engineered for high-precision cutting, creasing, and plotting. Ideal for packaging, stickers, cardboard, and vinyl materials.",
+    "image": "/products/XCT-KF9015 : KF1215.png",
+    "category": "XCT Industrial Flatbed Cutters",
     "specs": {
       "paperSize": "KF9015: 900 × 1500 mm  |  KF1215: 1200 × 1500 mm",
       "cuttingPressure": "1000 g",
@@ -1649,8 +1649,8 @@
     "name": "KF1215 Flatbed Cutter Series",
     "tagline": "Flatbed Cutter Series",
     "description": "The KF1215 is a professional industrial cutter engineered for high-precision cutting, creasing, and plotting. Ideal for packaging, stickers, cardboard, and vinyl materials.",
-    "image": "/products/ANYCUT-KF9015 : KF1215.png",
-    "category": "ANYCUT Industrial Flatbed Cutters",
+    "image": "/products/XCT-KF9015 : KF1215.png",
+    "category": "XCT Industrial Flatbed Cutters",
     "specs": {
       "paperSize": "KF9015: 900 × 1500 mm  |  KF1215: 1200 × 1500 mm",
       "cuttingPressure": "1000 g",

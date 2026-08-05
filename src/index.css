@@ -1120,8 +1120,8 @@ textarea.form-control {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
-  gap: 48px;
+  grid-template-columns: 1.4fr 1.1fr 0.9fr 1.4fr;
+  gap: 40px;
   border-bottom: 1px solid #1e293b;
   padding-bottom: 56px;
   margin-bottom: 32px;
